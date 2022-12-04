@@ -2,5 +2,6 @@ from django.urls import path
 from trainify_bridge import views
 
 urlpatterns = [
-    path('t/', views.test)
+    path('t/', views.test),
+    path('run/', views.run)
 ]
